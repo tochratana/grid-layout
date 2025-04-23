@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Grid Layout</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="grid-container">
+    <!-- TODO Header -->
+    <header>
+      <div class="logo">GridFlex</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- TODO left SIdebar -->
+    <aside class="left-sidebar">
+      <h2>Navigation</h2>
+      <div class="card">
+        <h3>Categories</h3>
+        <ul>
+          <li>Web Design</li>
+          <li>UI/UX</li>
+          <li>Development</li>
+          <li>Marketing</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Archives</h3>
+        <ul>
+          <li>March 2025</li>
+          <li>February 2025</li>
+          <li>January 2025</li>
+          <li>December 2024</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- TODO Main content -->
+    <main>
+      <h1>Welcome to our Grid Layout Page</h1>
+      <p>
+        This is a modern webpage layout created using CSS Grid Areas. The layout
+        is responsive and adapts to different screen sizes. The main content
+        area now scrolls independently.
+      </p>
+
+      <section class="card">
+        <h3>What is CSS Grid?</h3>
+        <p>
+          CSS Grid Layout is a two-dimensional layout system designed
+          specifically for web user interfaces. It allows for easy placement of
+          elements in rows and columns, making complex layouts simpler to
+          achieve.
+        </p>
+        <p class="example">Example :</p>
+        <!-- Example  -->
+        <div class="wrapper">
+          <div class="box a">A</div>
+          <div class="box b">B</div>
+          <div class="box c">C</div>
+          <div class="box d">D</div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Benefits of Grid Areas</h3>
+        <p>
+          Grid areas allow you to name sections of your layout and place
+          elements within those named areas. This makes creating and maintaining
+          layouts much more intuitive and easier to understand.
+        </p>
+        <div class="container-example-1">
+          <div class="grid-container-example-2">
+            <div class="example-item example1">1</div>
+            <div class="example-item example2">2</div>
+            <div class="example-item example3">3</div>
+            <div class="example-item example4">4</div>
+            <div class="example-item example5">5</div>
+            <div class="example-item example6">6</div>
+            <div class="example-item example7">7</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Responsive Design</h3>
+        <p>
+          This layout automatically adjusts based on screen size. Try resizing
+          your browser window to see how the layout changes to accommodate
+          different devices.
+        </p>
+        <div class="container-example-1">
+          <div class="grid-container-example-1">
+            <div class="item item1">1</div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+            <div class="item item4">4</div>
+            <div class="item item5">5</div>
+            <div class="item item6">6</div>
+            <div class="item item7">7</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Added more content cards to demonstrate scrolling -->
+      <section class="card">
+        <h3>Scrollable Content</h3>
+        <p>
+          This section now scrolls independently when there's too much content
+          to fit in the viewport. The header, footer, and sidebars remain fixed
+          in place.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>Modern Web Design</h3>
+        <p>
+          Modern web interfaces often use this kind of layout to maximize screen
+          space and improve user experience. The fixed header provides
+          navigation while the scrollable content area allows users to focus on
+          content.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>CSS Grid vs Flexbox</h3>
+        <p>
+          While Flexbox is great for one-dimensional layouts (either rows OR
+          columns), Grid excels at two-dimensional layouts where you need to
+          control both dimensions simultaneously.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>Browser Support</h3>
+        <p>
+          CSS Grid is now supported by all major browsers, making it a reliable
+          choice for modern web development. It provides powerful layout
+          capabilities that were difficult to achieve with older techniques.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>Grid Template Areas</h3>
+        <p>
+          The grid-template-areas property used in this layout provides a visual
+          representation of the layout structure directly in the CSS, making it
+          easier to understand and maintain.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>Customizing Scrollbars</h3>
+        <p>
+          We've added custom scrollbar styling to improve the visual aesthetics
+          of the scrolling sections. This creates a more polished, app-like
+          feel.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>Mobile Considerations</h3>
+        <p>
+          On mobile devices, we switch to a standard scrolling layout to provide
+          a more familiar experience on small screens where specialized layouts
+          can feel constrained.
+        </p>
+      </section>
+    </main>
+    <!-- TODO Right sidebar -->
+    <aside class="right-sidebar">
+      <h2>Updates</h2>
+      <div class="card">
+        <h3>Recent Posts</h3>
+        <ul>
+          <li>Mastering CSS Grid</li>
+          <li>Web Design Trends 2025</li>
+          <li>Responsive Design Tips</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Subscribe</h3>
+        <p>Get the latest updates directly to your inbox!</p>
+        <form>
+          <input
+            type="email"
+            placeholder="Your email"
+            style="width: 100%; padding: 8px; margin-top: 8px"
+          />
+          <button
+            style="
+              background: #4f46e5;
+              color: white;
+              border: none;
+              padding: 8px;
+              width: 100%;
+              margin-top: 8px;
+              cursor: pointer;
+              border-radius: 4px;
+            "
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </aside>
+    <!-- TODO footer -->
+    <footer>
+      <p>&copy; 2025 GridFlex. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
